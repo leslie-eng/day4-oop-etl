@@ -1,0 +1,19 @@
+[project]
+name = "day4-oop-etl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Leslie Angu", email = "73835374+leslie-eng@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+day4-oop-etl = "day4_oop_etl:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
